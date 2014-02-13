@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CryptoTest</string>
+    <string name="activity_calc">Calculadora</string>
+
+    <!-- Home Activity -->
+    <string name="functionalities_title">Funcionalidades de Uso</string>
+    <string name="status_test_title">Estado de Tests</string>
+    <string name="show_device_details">"Mostrar especificaciones de dispositivo"</string>
+
+    <!-- Test Manager Activity -->
+    <string name="test_title">Ver Estado de Tests</string>
+    <string name="header_test_name">Test</string>
+    <string name="header_test_status">Estado</string>
+    <string name="header_test_more">Opciones</string>
+    <string name="btn_test_more">Detalles</string>
+    <string name="test_title_build_parameters">Test de Construccion de Parámetros</string>
+    <string name="test_description_build_parameters">Medición de tiempos para la construcción de parametros para el modelo de encriptación homomórfica.</string>
+    <string name="test_title_crypto_operations">Test de Operaciones Criptográficas</string>
+    <string name="test_description_crypto_operations">Medición de los tiempos para las operaciones criptograficas homomórficas en un set de datos.</string>
+    <string name="test_title_operations_by_bitlength">Test de BitLength</string>
+    <string name="test_description_operations_by_bitlength">Medición de tiempos de operaciones criptograficas sobre valores de distinto tamaño (bitlength) sobre los mismos parametros de encriptación.</string>
+    <string name="test_title_adding_times">Test de Suma de Valores</string>
+    <string name="test_description_adding_times">Medición de tiempos de suma de un set de datos sobre distintos modelos de encriptacion (Suma directa, AES, RSA y Encriptación Homomórfica).</string>
+    <string name="done">Listo</string>
+    <string name="working">Ejecutando</string>
+    <string name="no_started">No Iniciado</string>
+
+    <!-- foreground services -->
+    <string name="starting_test">Iniciado el Test</string>
+    <string name="test_working">Ejecuntado Test</string>
+    
+    <!-- Test Dialogs Button -->
+    <string name="execute">Ejecutar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="clean_results">Limpiar Resultados</string>
+
+    <!-- Calc Activity -->
+    <string name="S_Value">Valor de S</string>
+    <string name="BitLength_Value">Bits de Seguridad</string>
+    <string name="make_Param">Crear Parametros</string>
+    <string name="first_value">Primer Valor</string>
+    <string name="second_value">Segundo Valor</string>
+    <string name="scale_value">Factor Escalar</string>
+    <string name="calc_action">Calcular</string>
+    <string name="show_parameters">Mostrar Parametros</string>
+
+    <!-- Parameters Test -->
+    <string name="parameters_test_name">Test de Parametros</string>
+    <string name="parameters_test">Prueba de Construccion de Parametros de Encriptacion</string>
+    <string name="parameters_test_ok_launched">Lanzado Test de Encriptacion de Parametros</string>
+    <string name="parameters_test_error_launched">No se ha podido iniciar el servicio</string>
+    <string name="parameters_test_title_notification">Test de Parametros de Encriptacion Listo</string>
+    <string name="parameters_test_body_notification">clic para volver a la app</string>
+    <string name="parameters_test_error_title">ERROR!</string>
+    <string name="parameters_test_error_body">Se ha producido un error en test de encriptacion de parametros</string>
+
+    <!-- bitLength Test -->
+    <string name="bitLength_test_name">Test de BitLengths</string>
+    <string name="bitLength_test">Prueba de BitLengths</string>
+    <string name="bitLength_test_ok_launched">Lanzado Test de bitLength</string>
+    <string name="bitLength_test_error_launched">No se ha podido iniciar el servicio</string>
+    <string name="bitLength_test_title_notification">Test de bitLength Listo</string>
+    <string name="bitLength_test_body_notification">clic para volver a la app</string>
+    <string name="bitLength_test_error_title">ERROR!</string>
+    <string name="bitLength_test_error_body">Se ha producido un error en test de bitLength</string>
+
+    <!-- cryptoOperations Test -->
+    <string name="crypto_operations_name">Test de Cripto Operaciones</string>
+    <string name="crypto_operations_test">Prueba de Cripto Operaciones</string>
+    <string name="crypto_operations_test_ok_launched">Lanzado Test de Cripto Operaciones</string>
+    <string name="crypto_operations_test_error_launched">No se ha podido iniciar el servicio</string>
+    <string name="crypto_operations_test_title_notification">Test de Cripto Operaciones Listo</string>
+    <string name="crypto_operations_test_body_notification">clic para volver a la app</string>
+    <string name="crypto_operations_test_error_title">ERROR!</string>
+    <string name="crypto_operations_test_error_body">Se ha producido un error en test de Cripto Operaciones</string>
+
+    <!-- Adding Test -->
+    <string name="adding_test_name">Test de Suma de Valores</string>
+    <string name="adding_test">Prueba de suma de valores</string>
+    <string name="adding_test_ok_launched">Lanzado Test de Suma</string>
+    <string name="adding_test_error_launched">No se ha podido iniciar el servicio</string>
+    <string name="adding_test_title_notification">Test de Suma Listo</string>
+    <string name="adding_test_body_notification">clic para volver a la app</string>
+    <string name="adding_test_error_title">ERROR!</string>
+    <string name="adding_test_error_body">Se ha producido un error en test de suma</string>
+
+</resources>
